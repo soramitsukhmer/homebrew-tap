@@ -13,5 +13,5 @@ brew tap soramitsukhmer/tap
 **Installing cask/formula**
 
 ```sh
-brew install soramitsukhmer/tap/<formula>/<cask>
+brew install soramitsukhmer/tap/<formula/cask>
 ```
