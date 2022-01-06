@@ -3,7 +3,7 @@ class Lockrun < Formula
   homepage "http://unixwiz.net/tools/lockrun.html"
   url "http://unixwiz.net/tools/lockrun.c"
   version "1.1.3"
-  sha256 "b846c1c50f9994c3ebeba89e9c2cd1fdaba777e5e19f3e65bde0da4f0beed03d"
+  sha256 "cea2e1e64c57cb3bb9728242c2d30afeb528563e4d75b650e8acae319a2ec547"
 
   conflicts_with "lockrun"
 
