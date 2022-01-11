@@ -15,3 +15,8 @@ brew tap soramitsukhmer/tap
 ```sh
 brew install soramitsukhmer/tap/<formula/cask>
 ```
+
+## Formulae
+
+- `lockrun` Run cron job with overrun protection
+- `sshpass` noninteractive ssh password provider
