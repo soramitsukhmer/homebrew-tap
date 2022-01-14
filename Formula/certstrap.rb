@@ -1,9 +1,9 @@
 class Certstrap < Formula
   desc "Tools to bootstrap CAs, certificate requests, and signed certificates"
   homepage "https://github.com/soramitsukhmer/certstrap"
-  version "1.3.1"
+  version "1.3.2"
   url "https://github.com/soramitsukhmer/certstrap/archive/refs/tags/v#{version}.tar.gz"
-  sha256 "0fcfc6ccec538fa5f8af1bf60aebbc9f9edda51fc376ee0dfef1ac13684e06c8"
+  sha256 "2e89a2606291423d98439f456f25cbec90f30f0156bfc9c2916e5098cc771a1a"
   license "Apache-2.0"
   
   conflicts_with "certstrap"
