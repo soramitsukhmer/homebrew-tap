@@ -18,5 +18,6 @@ brew install soramitsukhmer/tap/<formula/cask>
 
 ## Formulae
 
-- `lockrun` Run cron job with overrun protection
-- `sshpass` noninteractive ssh password provider
+- `certstrap`: Tools to bootstrap CAs, certificate requests, and signed certificates
+- `lockrun`: Run cron job with overrun protection
+- `sshpass`: noninteractive ssh password provider
