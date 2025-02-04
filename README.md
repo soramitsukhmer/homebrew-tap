@@ -1,6 +1,6 @@
-# Soramitsu Khmer Homebrew
+# About
 
-> Soramitsu Khmer Homebrew Tap repo.
+Soramitsu Khmer Homebrew Tap repo.
 
 ## Usage
 
