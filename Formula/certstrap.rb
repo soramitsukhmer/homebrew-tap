@@ -1,6 +1,6 @@
 class Certstrap < Formula
   desc "Tools to bootstrap CAs, certificate requests, and signed certificates"
-  homepage "https://github.com/socheatsok78/certstrap"
+  homepage "https://github.com/socheatsok78-lab/certstrap"
   version "latest"
   url "https://github.com/socheatsok78-lab/certstrap/archive/refs/heads/master.zip"
   license "Apache-2.0"
