@@ -1,5 +1,5 @@
 # About
-[@soramitsukhmer]'s Official Homebrew tap.
+[@soramitsukhmer](https://github.com/soramitsukhmer)'s Official Homebrew tap.
 
 ## Usage
 
