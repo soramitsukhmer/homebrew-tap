@@ -1,17 +1,27 @@
 class Sshpass < Formula
-  version '1.09'
+  desc "Tool for non-interactivly performing password authentication with SSH"
   homepage "https://sourceforge.net/projects/sshpass"
-  url "https://sourceforge.net/projects/sshpass/files/sshpass/#{version}/sshpass-#{version}.tar.gz"
-  sha256 "71746e5e057ffe9b00b44ac40453bf47091930cba96bbea8dc48717dedc49fb7"
+  url "https://downloads.sourceforge.net/project/sshpass/sshpass/1.10/sshpass-1.10.tar.gz"
+  sha256 "ad1106c203cbb56185ca3bad8c6ccafca3b4064696194da879f81c8d7bdfeeda"
+  license "GPL-2.0-only"
 
   def install
-    system "./configure", "--disable-debug",
-                          "--disable-dependency-tracking",
-                          "--prefix=#{prefix}"
-    system "make install"
+    system "./configure", *std_configure_args
+    system "make", "install"
   end
 
-  def test
-    system "sshpass"
+  def caveats
+    <<~EOS
+      Sshpass is a tool for non-interactively performing password authentication
+      with SSH's so called "interactive keyboard password authentication".
+      Most users should use SSH's more secure public key authentication instead.
+
+      See `man sshpass` for more information.
+    EOS
+  end
+
+  test do
+    output = shell_output("#{bin}/sshpass -P password ssh foo@bar ls 2>&1", 255)
+    assert_match(/ssh: Could not resolve hostname bar/, output)
   end
 end
