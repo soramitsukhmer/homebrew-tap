@@ -17,13 +17,9 @@ brew install soramitsukhmer/tap/<formula/cask>
 
 ## Formulae
 
-| Repository                   | Formula     | Description                                                           |
-| ---------------------------- | ----------- | --------------------------------------------------------------------- |
-| [socheatsok78-lab/certstrap] | `certstrap` | Tools to bootstrap CAs, certificate requests, and signed certificates |
-| [lockrun]                    | `lockrun`   | Run cron job with overrun protection                                  |
-| [sshpass]                    | `sshpass`   | Non-interactive ssh password provider                                 |
-
-
-[socheatsok78-lab/certstrap]: https://github.com/socheatsok78-lab/certstrap
-[lockrun]: http://unixwiz.net/tools/lockrun.html
-[sshpass]: https://sourceforge.net/projects/sshpass
+| Formula             | Description                                                           |
+| ------------------- | --------------------------------------------------------------------- |
+| `certstrap`         | Tools to bootstrap CAs, certificate requests, and signed certificates |
+| `git-hook-gitleaks` | Git hook for detecting secrets using Gitleaks                         |
+| `lockrun`           | Run cron job with overrun protection                                  |
+| `sshpass`           | Non-interactive ssh password provider                                 |
