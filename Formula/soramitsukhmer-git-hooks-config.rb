@@ -16,6 +16,10 @@ class SoramitsukhmerGitHooksConfig < Formula
     <<~EOS
       The configuration file has been installed to:
         #{prefix}/git-hooks.conf
+
+      To use this configuration, you can add the following line to your ~/.gitconfig file:
+        [include]
+          path = #{prefix}/git-hooks.conf
     EOS
   end
 
