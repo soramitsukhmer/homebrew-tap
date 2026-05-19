@@ -29,12 +29,13 @@ brew install --cask soramitsukhmer/tap/<name>
 
 ## Formulae
 
-| Formula             | Description                                                           |
-| ------------------- | --------------------------------------------------------------------- |
-| `certstrap`         | Tools to bootstrap CAs, certificate requests, and signed certificates |
-| `git-hook-gitleaks` | Git hook for detecting secrets using Gitleaks                         |
-| `lockrun`           | Run cron job with overrun protection                                  |
-| `sshpass`           | Non-interactive ssh password provider                                 |
+| Formula                           | Description                                                           |
+| --------------------------------- | --------------------------------------------------------------------- |
+| `certstrap`                       | Tools to bootstrap CAs, certificate requests, and signed certificates |
+| `git-hook-gitleaks`               | Git hook for detecting secrets using Gitleaks                         |
+| `lockrun`                         | Run cron job with overrun protection                                  |
+| `soramitsukhmer-git-hooks-config` | Configuration files for Soramitsukhmer Git hooks                      |
+| `sshpass`                         | Non-interactive ssh password provider                                 |
 
 ## License
 
