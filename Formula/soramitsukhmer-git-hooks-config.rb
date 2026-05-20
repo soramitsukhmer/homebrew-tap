@@ -20,6 +20,9 @@ class SoramitsukhmerGitHooksConfig < Formula
       To use this configuration, you can add the following line to your ~/.gitconfig or ~/.config/git/config file:
         [include]
           path = #{prefix}/git-hooks.conf
+
+      Or run the following command in your terminal:
+        git config set --global --append include.path #{prefix}/git-hooks.conf
     EOS
   end
 
